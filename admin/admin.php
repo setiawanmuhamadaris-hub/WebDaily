@@ -1,11 +1,11 @@
 <?php
 session_start();
 
-include "koneksi.php";  
+include "../koneksi.php";  
 
 //check jika belum ada user yang login arahkan ke halaman login
 if (!isset($_SESSION['username'])) { 
-	header("location:login.php"); 
+	header("location:../login.php"); 
 } 
 ?>
 <!DOCTYPE html>
@@ -14,7 +14,7 @@ if (!isset($_SESSION['username'])) {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>My Daily Journal | Admin</title>
-    <link rel="icon" href="img/logo.png" />
+    <link rel="icon" href="../img/logo.png" />
     <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
@@ -71,7 +71,7 @@ if (!isset($_SESSION['username'])) {
                     <?= $_SESSION['username']?>
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="logout.php">Logout</a></li> 
+                    <li><a class="dropdown-item" href="../logout.php">Logout</a></li> 
                 </ul>
             </li> 
         </ul>

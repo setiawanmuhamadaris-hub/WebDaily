@@ -80,7 +80,7 @@ include "koneksi.php";
       <div class="container">
         <div class="d-sm-flex flex-sm-row-reverse align-items-center">
           <img
-            src="banner1.jpg"
+            src="img/banner1.jpg"
             width="300"
             class="img-fluid"
             alt="Banner"
@@ -145,35 +145,35 @@ include "koneksi.php";
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
-                src="gallery1.jpg"
+                src="img/gallery1.jpg"
                 class="d-block w-100"
                 alt="Galeri 1"
               />
             </div>
             <div class="carousel-item">
               <img
-                src="gallery2.jpg"
+                src="img/gallery2.jpg"
                 class="d-block w-100"
                 alt="Galeri 2"
               />
             </div>
             <div class="carousel-item">
               <img
-                src="gallery3.jpg"
+                src="img/gallery3.jpg"
                 class="d-block w-100"
                 alt="Galeri 3"
               />
             </div>
             <div class="carousel-item">
               <img
-                src="gallery4.jpg"
+                src="img/gallery4.jpg"
                 class="d-block w-100"
                 alt="Galeri 4"
               />
             </div>
             <div class="carousel-item">
               <img
-                src="gallery5.jpg"
+                src="img/gallery5.jpg"
                 class="d-block w-100"
                 alt="Galeri 5"
               />

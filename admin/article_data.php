@@ -10,7 +10,7 @@
     </thead>
     <tbody>
         <?php
-        include "koneksi.php";
+        include "../koneksi.php";
 
         $hlm = (isset($_POST['hlm'])) ? $_POST['hlm'] : 1;
         $limit = 3;
@@ -33,9 +33,9 @@
                 <td>
                     <?php
                     if ($row["gambar"] != '') {
-                        if (file_exists('img/' . $row["gambar"] . '')) {
+                        if (file_exists('../img/' . $row["gambar"] . '')) {
                     ?>
-                            <img src="img/<?= $row["gambar"] ?>" width="100">
+                            <img src="../img/<?= $row["gambar"] ?>" width="100">
                     <?php
                         }
                     }
@@ -75,9 +75,9 @@
                                             <label for="formGroupExampleInput3" class="form-label">Gambar Lama</label>
                                             <?php
                                             if ($row["gambar"] != '') {
-                                                if (file_exists('img/' . $row["gambar"] . '')) {
+                                                if (file_exists('../img/' . $row["gambar"] . '')) {
                                             ?>
-                                                    <br><img src="img/<?= $row["gambar"] ?>" width="100">
+                                                    <br><img src="../img/<?= $row["gambar"] ?>" width="100">
                                             <?php
                                                 }
                                             }
