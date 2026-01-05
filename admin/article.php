@@ -65,13 +65,9 @@ $(document).ready(function(){
 </script>
 
 <?php
-<<<<<<< HEAD:article.php
-include "upload_foto.php";
-include "cek_konten.php"; // Memasukkan logika AI
-=======
 include "function/upload_foto.php";
+include "function/compress.php";   // Kompresi gambar
 include "function/cek_konten.php"; // Memasukkan logika AI
->>>>>>> origin/tidyfolder:admin/article.php
 
 //jika tombol simpan diklik
 if (isset($_POST['simpan'])) {
@@ -89,22 +85,29 @@ if (isset($_POST['simpan'])) {
         
         if ($cek_upload['status']) {
             $gambar = $cek_upload['message'];
-            
-            // ----------------------------------------------------
-            // 2. INTEGRASI AI: Cek Gambar yang baru diupload
-            // ----------------------------------------------------
-<<<<<<< HEAD:article.php
-            $path_file_baru = "img/" . $gambar;
-=======
             $path_file_baru = "../img/" . $gambar;
->>>>>>> origin/tidyfolder:admin/article.php
             
-            // Panggil fungsi AI untuk mengecek konten
-            $hasil_cek = cek_konten_aman($path_file_baru);
+            // ----------------------------------------------------
+            // 2. KOMPRES gambar untuk hemat token AI (target 100KB)
+            // ----------------------------------------------------
+            $hasil_kompres = kompres_gambar($path_file_baru, 100, 800);
+            
+            // Gunakan file kompresi untuk cek AI, atau file asli jika gagal kompres
+            $path_untuk_ai = $hasil_kompres['status'] ? $hasil_kompres['path'] : $path_file_baru;
+            
+            // ----------------------------------------------------
+            // 3. INTEGRASI AI: Cek Gambar yang sudah dikompres
+            // ----------------------------------------------------
+            $hasil_cek = cek_konten_aman($path_untuk_ai);
+            
+            // Hapus file kompresi sementara (tidak diperlukan lagi)
+            if ($hasil_kompres['status']) {
+                hapus_file_compressed($hasil_kompres['path']);
+            }
 
             // Jika AI bilang TIDAK AMAN (false)
             if ($hasil_cek['aman'] == false) {
-                // Hapus gambar yang sudah terlanjur diupload agar tidak tersimpan di server
+                // Hapus gambar asli yang sudah terlanjur diupload
                 unlink($path_file_baru); 
                 
                 echo "<script>
@@ -136,13 +139,8 @@ if (isset($_POST['simpan'])) {
             $gambar = $_POST['gambar_lama'];
         } else {
             //jika ganti gambar, hapus gambar lama dari folder
-<<<<<<< HEAD:article.php
-            if (file_exists("img/" . $_POST['gambar_lama'])) {
-                unlink("img/" . $_POST['gambar_lama']);
-=======
             if (file_exists("../img/" . $_POST['gambar_lama'])) {
                 unlink("../img/" . $_POST['gambar_lama']);
->>>>>>> origin/tidyfolder:admin/article.php
             }
         }
 
@@ -189,13 +187,8 @@ if (isset($_POST['hapus'])) {
 
     if ($gambar != '') {
         //hapus file gambar
-<<<<<<< HEAD:article.php
-        if (file_exists("img/" . $gambar)) {
-            unlink("img/" . $gambar);
-=======
         if (file_exists("../img/" . $gambar)) {
             unlink("../img/" . $gambar);
->>>>>>> origin/tidyfolder:admin/article.php
         }
     }
 
