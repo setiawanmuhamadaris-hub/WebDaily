@@ -5,7 +5,8 @@
     
     <div class="row">
         <div class="table-responsive" id="article_data">
-            </div>
+            
+        </div>
 
         <div class="modal fade" id="modalTambah" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -37,7 +38,7 @@
                 </div>
             </div>
         </div>
-        </div>
+    </div>
 </div>
 
 <script>
@@ -64,7 +65,8 @@ $(document).ready(function(){
 </script>
 
 <?php
-include "upload_foto.php";
+include "function/upload_foto.php";
+include "function/cek_konten.php"; // Memasukkan logika AI
 
 //jika tombol simpan diklik
 if (isset($_POST['simpan'])) {
@@ -77,9 +79,35 @@ if (isset($_POST['simpan'])) {
 
     //jika ada file yang dikirim  
     if ($nama_gambar != '') {
+        // 1. Upload Gambar Dulu ke folder img/
         $cek_upload = upload_foto($_FILES["gambar"]);
+        
         if ($cek_upload['status']) {
             $gambar = $cek_upload['message'];
+            
+            // ----------------------------------------------------
+            // 2. INTEGRASI AI: Cek Gambar yang baru diupload
+            // ----------------------------------------------------
+            $path_file_baru = "../img/" . $gambar;
+            
+            // Panggil fungsi AI untuk mengecek konten
+            $hasil_cek = cek_konten_aman($path_file_baru);
+
+            // Jika AI bilang TIDAK AMAN (false)
+            if ($hasil_cek['aman'] == false) {
+                // Hapus gambar yang sudah terlanjur diupload agar tidak tersimpan di server
+                unlink($path_file_baru); 
+                
+                echo "<script>
+                    alert('GAGAL SIMPAN! Gambar terdeteksi mengandung konten berbahaya: " . $hasil_cek['kategori'] . "');
+                    document.location='admin.php?page=article';
+                </script>";
+                die; // Hentikan script, jangan lanjut ke simpan database
+            }
+            // ----------------------------------------------------
+            // Akhir Integrasi AI (Jika aman, lanjut ke bawah)
+            // ----------------------------------------------------
+
         } else {
             echo "<script>
                 alert('" . $cek_upload['message'] . "');
@@ -95,9 +123,13 @@ if (isset($_POST['simpan'])) {
         $id = $_POST['id'];
 
         if ($nama_gambar == '') {
+            //jika tidak ganti gambar, pakai gambar lama
             $gambar = $_POST['gambar_lama'];
         } else {
-            unlink("img/" . $_POST['gambar_lama']);
+            //jika ganti gambar, hapus gambar lama dari folder
+            if (file_exists("../img/" . $_POST['gambar_lama'])) {
+                unlink("../img/" . $_POST['gambar_lama']);
+            }
         }
 
         $stmt = $conn->prepare("UPDATE article 
@@ -142,7 +174,10 @@ if (isset($_POST['hapus'])) {
     $gambar = $_POST['gambar'];
 
     if ($gambar != '') {
-        unlink("img/" . $gambar);
+        //hapus file gambar
+        if (file_exists("../img/" . $gambar)) {
+            unlink("../img/" . $gambar);
+        }
     }
 
     $stmt = $conn->prepare("DELETE FROM article WHERE id =?");

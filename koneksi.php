@@ -3,7 +3,7 @@ date_default_timezone_set('Asia/Jakarta');
 
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "root";
 $db = "webdaily"; // Pastikan ini sama dengan nama database di phpMyAdmin
 
 // Create connection

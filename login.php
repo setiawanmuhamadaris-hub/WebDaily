@@ -7,7 +7,7 @@ include "koneksi.php";
 
 // Check jika sudah ada user yang login arahkan ke halaman admin
 if (isset($_SESSION['username'])) { 
-	header("location:admin.php"); 
+	header("location:admin/admin.php"); 
 	exit;
 }
 
@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $_SESSION['username'] = $row['username'];
 
     // Mengalihkan ke halaman admin
-    header("location:admin.php");
+    header("location:admin/admin.php");
   } else {
     // Jika tidak ada (gagal), alihkan kembali ke halaman login
     header("location:login.php");
