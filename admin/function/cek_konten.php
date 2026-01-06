@@ -84,28 +84,28 @@ function cek_konten_aman($imagePath) {
     }
 
     // API Key Gemini
-    $apiKey = "AIzaSyDriAUjiNXPsX-VSF1mUmJ3SDtdSeSAq_0"; 
+    $apiKey = "AIzaSyBz6dEUXWXtPUdjzjoyffn21UJGDhl5q_8"; 
     $apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=" . $apiKey;
 
     // Baca file gambar dan ubah ke base64
     $imageData = base64_encode(file_get_contents($imagePath));
     $mimeType = mime_content_type($imagePath);
 
-    // Prompt untuk moderasi konten - versi halus agar tidak di-block
-    $promptText = "You are an image reviewer for a family-friendly news website. 
-Analyze this image and determine if it is appropriate for all audiences.
+    // Prompt untuk moderasi konten dalam Bahasa Indonesia
+    $promptText = "Kamu adalah peninjau gambar untuk website berita yang ramah keluarga.
+Analisis gambar ini dan tentukan apakah layak untuk semua kalangan.
 
-Consider if the image contains anything that would NOT be suitable for:
-- A general news publication
-- Viewers of all ages
-- Professional workplace viewing
+Pertimbangkan apakah gambar mengandung hal yang TIDAK sesuai untuk:
+- Publikasi berita umum
+- Penonton segala usia
+- Ditampilkan di tempat kerja profesional
 
-Rate the image safety. 
-Respond ONLY in this exact JSON format:
+Nilai keamanan gambar ini.
+Jawab HANYA dalam format JSON berikut:
 {\"aman\": true, \"kategori\": \"\", \"confidence\": 0.95}
 
-If safe for all audiences: aman = true, kategori = empty string
-If NOT safe: aman = false, kategori = brief reason in Indonesian";
+Jika aman untuk semua kalangan: aman = true, kategori = string kosong
+Jika TIDAK aman: aman = false, kategori = alasan singkat dalam Bahasa Indonesia";
 
     // Data yang dikirim ke API
     $data = [
