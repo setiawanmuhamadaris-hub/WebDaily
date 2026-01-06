@@ -1,0 +1,646 @@
+2026-01-06 12:59:25
+FULL RESPONSE:
+Array
+(
+    [promptFeedback] => Array
+        (
+            [blockReason] => PROHIBITED_CONTENT
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 701
+            [totalTokenCount] => 701
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 443
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => vaRcaZbZHpH-juMPwuDXkQc
+)
+
+
+2026-01-06 13:01:07
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => {"aman": true, "kategori": "", "confidence": 0.95}
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 384
+            [candidatesTokenCount] => 19
+            [totalTokenCount] => 768
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 126
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 365
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => I6VcadXsN5iR4-EPqeuc4Qc
+)
+
+
+2026-01-06 13:01:11
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => {"aman": true, "kategori": "", "confidence": 0.95}
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 384
+            [candidatesTokenCount] => 19
+            [totalTokenCount] => 784
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 126
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 381
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => J6VcaaLJH7OxjuMPw5b06AY
+)
+
+
+2026-01-06 13:02:01
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => {"aman": false, "kategori": "Gambar senjata api", "confidence": 0.95}
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 384
+            [candidatesTokenCount] => 23
+            [totalTokenCount] => 1078
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 126
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 671
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => WaVcaYiqFoLtg8UP3MTVsQg
+)
+
+
+2026-01-06 13:03:02
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => ```json
+{"aman": true, "kategori": "", "confidence": 0.98}
+```
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 384
+            [candidatesTokenCount] => 24
+            [totalTokenCount] => 832
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 126
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 424
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => lqVcadTZHaXcg8UP_MPp0AY
+)
+
+
+2026-01-06 13:03:08
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => ```json
+{"aman": true, "kategori": "", "confidence": 0.95}
+```
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 384
+            [candidatesTokenCount] => 24
+            [totalTokenCount] => 831
+            [cachedContentTokenCount] => 268
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 126
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [cacheTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 180
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 88
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 423
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => nKVcaZjnBJ6X4-EPt6md6QY
+)
+
+
+2026-01-06 13:32:56
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => {"aman": false, "kategori": "Senjata api realistis", "confidence": 0.95}
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 384
+            [candidatesTokenCount] => 25
+            [totalTokenCount] => 1130
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 126
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 721
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => nKxcaanDLcKxjuMP0LyZ2QY
+)
+
+
+2026-01-06 13:33:24
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => {"aman": true, "kategori": "", "confidence": 0.98}
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 384
+            [candidatesTokenCount] => 19
+            [totalTokenCount] => 644
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 126
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 241
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => uKxcaefvGfWtjuMPira70QY
+)
+
+
+2026-01-06 13:33:27
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => ```json
+{"aman": true, "kategori": "", "confidence": 0.98}
+```
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 384
+            [candidatesTokenCount] => 24
+            [totalTokenCount] => 704
+            [cachedContentTokenCount] => 268
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 126
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [cacheTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 88
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 180
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 296
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => u6xcaf6NNsmkg8UP4e_SyQo
+)
+
+
+2026-01-06 13:33:59
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => {"aman": false, "kategori": "Senjata api", "confidence": 0.95}
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 384
+            [candidatesTokenCount] => 23
+            [totalTokenCount] => 914
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 126
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 507
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => 26xcacHbGZH-juMPwuDXkQc
+)
+
+
+2026-01-06 13:35:31
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => {"aman": false, "kategori": "Gambar senjata api", "confidence": 0.95}
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 384
+            [candidatesTokenCount] => 23
+            [totalTokenCount] => 838
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 126
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 431
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => N61caePZAqfmjuMPxbbWgAY
+)
+
+
