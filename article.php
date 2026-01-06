@@ -104,9 +104,6 @@ if (isset($_POST['simpan'])) {
                 </script>";
                 die; // Hentikan script, jangan lanjut ke simpan database
             }
-            // ----------------------------------------------------
-            // Akhir Integrasi AI (Jika aman, lanjut ke bawah)
-            // ----------------------------------------------------
 
         } else {
             echo "<script>
