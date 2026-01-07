@@ -8,6 +8,7 @@
  * @param int $maxWidth Max lebar gambar (default 800px)
  * @return array ['status' => bool, 'path' => string, 'message' => string]
  */
+if (!function_exists('kompres_gambar')) {
 function kompres_gambar($sourcePath, $targetSizeKB = 100, $maxWidth = 800) {
     $result = ['status' => false, 'path' => '', 'message' => ''];
     
@@ -107,13 +108,16 @@ function kompres_gambar($sourcePath, $targetSizeKB = 100, $maxWidth = 800) {
     
     return $result;
 }
+} // end function_exists kompres_gambar
 
 /**
  * Hapus file hasil kompresi sementara
  */
+if (!function_exists('hapus_file_compressed')) {
 function hapus_file_compressed($path) {
     if (file_exists($path) && strpos($path, '_compressed') !== false) {
         unlink($path);
     }
 }
+} // end function_exists hapus_file_compressed
 ?>

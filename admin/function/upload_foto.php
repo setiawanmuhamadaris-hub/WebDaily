@@ -1,4 +1,8 @@
 <?php 
+// Include fungsi pendukung
+require_once __DIR__ . '/compress.php';
+require_once __DIR__ . '/cek_konten.php';
+
 function upload_foto($File){    
     $uploadOk = 1;
     $hasil = array();
@@ -32,14 +36,38 @@ function upload_foto($File){
     if ($uploadOk == 0) {
         $message .= "Sorry, your file was not uploaded. ";
         $hasil['status'] = false; 
-        // if everything is ok, try to upload file
     }else{
-        //Create new filename:
+        // === STEP 1: KOMPRES GAMBAR ===
+        $kompres = kompres_gambar($TmpLocation, 100, 800);
+        
+        if (!$kompres['status']) {
+            // Jika kompres gagal, gunakan file asli
+            $fileToCheck = $TmpLocation;
+        } else {
+            $fileToCheck = $kompres['path'];
+        }
+        
+        // === STEP 2: CEK KONTEN DENGAN AI ===
+        $cekKonten = cek_konten_aman($fileToCheck);
+        
+        // Hapus file compressed sementara
+        if ($kompres['status']) {
+            hapus_file_compressed($kompres['path']);
+        }
+        
+        // Jika konten tidak aman, tolak upload
+        if (!$cekKonten['aman']) {
+            $message .= "Gambar ditolak: " . $cekKonten['kategori'];
+            $hasil['status'] = false;
+            $hasil['message'] = $message;
+            return $hasil;
+        }
+        
+        // === STEP 3: UPLOAD JIKA AMAN ===
         $NewName = date("YmdHis"). '.' . $FileExt;
         $UploadDestination = __DIR__ . "/../../img/". $NewName; 
 
         if (move_uploaded_file($TmpLocation, $UploadDestination)) {
-            //echo "The file has been uploaded.";
             $message .= $NewName;
             $hasil['status'] = true; 
         }else{

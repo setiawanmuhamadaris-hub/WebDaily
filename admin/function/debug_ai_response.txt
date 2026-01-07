@@ -1,0 +1,2115 @@
+2026-01-06 12:59:25
+FULL RESPONSE:
+Array
+(
+    [promptFeedback] => Array
+        (
+            [blockReason] => PROHIBITED_CONTENT
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 701
+            [totalTokenCount] => 701
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 443
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => vaRcaZbZHpH-juMPwuDXkQc
+)
+
+
+2026-01-06 13:01:07
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => {"aman": true, "kategori": "", "confidence": 0.95}
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 384
+            [candidatesTokenCount] => 19
+            [totalTokenCount] => 768
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 126
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 365
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => I6VcadXsN5iR4-EPqeuc4Qc
+)
+
+
+2026-01-06 13:01:11
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => {"aman": true, "kategori": "", "confidence": 0.95}
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 384
+            [candidatesTokenCount] => 19
+            [totalTokenCount] => 784
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 126
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 381
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => J6VcaaLJH7OxjuMPw5b06AY
+)
+
+
+2026-01-06 13:02:01
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => {"aman": false, "kategori": "Gambar senjata api", "confidence": 0.95}
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 384
+            [candidatesTokenCount] => 23
+            [totalTokenCount] => 1078
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 126
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 671
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => WaVcaYiqFoLtg8UP3MTVsQg
+)
+
+
+2026-01-06 13:03:02
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => ```json
+{"aman": true, "kategori": "", "confidence": 0.98}
+```
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 384
+            [candidatesTokenCount] => 24
+            [totalTokenCount] => 832
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 126
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 424
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => lqVcadTZHaXcg8UP_MPp0AY
+)
+
+
+2026-01-06 13:03:08
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => ```json
+{"aman": true, "kategori": "", "confidence": 0.95}
+```
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 384
+            [candidatesTokenCount] => 24
+            [totalTokenCount] => 831
+            [cachedContentTokenCount] => 268
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 126
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [cacheTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 180
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 88
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 423
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => nKVcaZjnBJ6X4-EPt6md6QY
+)
+
+
+2026-01-06 13:32:56
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => {"aman": false, "kategori": "Senjata api realistis", "confidence": 0.95}
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 384
+            [candidatesTokenCount] => 25
+            [totalTokenCount] => 1130
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 126
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 721
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => nKxcaanDLcKxjuMP0LyZ2QY
+)
+
+
+2026-01-06 13:33:24
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => {"aman": true, "kategori": "", "confidence": 0.98}
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 384
+            [candidatesTokenCount] => 19
+            [totalTokenCount] => 644
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 126
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 241
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => uKxcaefvGfWtjuMPira70QY
+)
+
+
+2026-01-06 13:33:27
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => ```json
+{"aman": true, "kategori": "", "confidence": 0.98}
+```
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 384
+            [candidatesTokenCount] => 24
+            [totalTokenCount] => 704
+            [cachedContentTokenCount] => 268
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 126
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [cacheTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 88
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 180
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 296
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => u6xcaf6NNsmkg8UP4e_SyQo
+)
+
+
+2026-01-06 13:33:59
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => {"aman": false, "kategori": "Senjata api", "confidence": 0.95}
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 384
+            [candidatesTokenCount] => 23
+            [totalTokenCount] => 914
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 126
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 507
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => 26xcacHbGZH-juMPwuDXkQc
+)
+
+
+2026-01-06 13:35:31
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => {"aman": false, "kategori": "Gambar senjata api", "confidence": 0.95}
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 384
+            [candidatesTokenCount] => 23
+            [totalTokenCount] => 838
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 126
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 431
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => N61caePZAqfmjuMPxbbWgAY
+)
+
+
+2026-01-06 13:38:32
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => {"aman": false, "kategori": "Menampilkan senjata api", "confidence": 0.95}
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 384
+            [candidatesTokenCount] => 24
+            [totalTokenCount] => 1297
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 126
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 889
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => 7K1caYTWFqjHjuMP49yE4QY
+)
+
+
+2026-01-06 13:42:30
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => {"aman": false, "kategori": "Konten senjata api", "confidence": 0.95}
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 384
+            [candidatesTokenCount] => 24
+            [totalTokenCount] => 992
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 126
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 584
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => 2a5caZzCOejmjuMP4ZqygA0
+)
+
+
+2026-01-06 13:42:48
+FULL RESPONSE:
+Array
+(
+    [error] => Array
+        (
+            [code] => 429
+            [message] => You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 8.195394045s.
+            [status] => RESOURCE_EXHAUSTED
+            [details] => Array
+                (
+                    [0] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.Help
+                            [links] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [description] => Learn more about Gemini API quotas
+                                            [url] => https://ai.google.dev/gemini-api/docs/rate-limits
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.QuotaFailure
+                            [violations] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [quotaMetric] => generativelanguage.googleapis.com/generate_content_free_tier_requests
+                                            [quotaId] => GenerateRequestsPerDayPerProjectPerModel-FreeTier
+                                            [quotaDimensions] => Array
+                                                (
+                                                    [model] => gemini-2.5-flash
+                                                    [location] => global
+                                                )
+
+                                            [quotaValue] => 20
+                                        )
+
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.RetryInfo
+                            [retryDelay] => 8s
+                        )
+
+                )
+
+        )
+
+)
+
+
+2026-01-06 13:43:03
+FULL RESPONSE:
+Array
+(
+    [error] => Array
+        (
+            [code] => 429
+            [message] => You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 52.543813142s.
+            [status] => RESOURCE_EXHAUSTED
+            [details] => Array
+                (
+                    [0] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.Help
+                            [links] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [description] => Learn more about Gemini API quotas
+                                            [url] => https://ai.google.dev/gemini-api/docs/rate-limits
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.QuotaFailure
+                            [violations] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [quotaMetric] => generativelanguage.googleapis.com/generate_content_free_tier_requests
+                                            [quotaId] => GenerateRequestsPerDayPerProjectPerModel-FreeTier
+                                            [quotaDimensions] => Array
+                                                (
+                                                    [location] => global
+                                                    [model] => gemini-2.5-flash
+                                                )
+
+                                            [quotaValue] => 20
+                                        )
+
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.RetryInfo
+                            [retryDelay] => 52s
+                        )
+
+                )
+
+        )
+
+)
+
+
+2026-01-06 13:43:14
+FULL RESPONSE:
+Array
+(
+    [error] => Array
+        (
+            [code] => 429
+            [message] => You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 41.846994051s.
+            [status] => RESOURCE_EXHAUSTED
+            [details] => Array
+                (
+                    [0] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.Help
+                            [links] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [description] => Learn more about Gemini API quotas
+                                            [url] => https://ai.google.dev/gemini-api/docs/rate-limits
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.QuotaFailure
+                            [violations] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [quotaMetric] => generativelanguage.googleapis.com/generate_content_free_tier_requests
+                                            [quotaId] => GenerateRequestsPerDayPerProjectPerModel-FreeTier
+                                            [quotaDimensions] => Array
+                                                (
+                                                    [location] => global
+                                                    [model] => gemini-2.5-flash
+                                                )
+
+                                            [quotaValue] => 20
+                                        )
+
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.RetryInfo
+                            [retryDelay] => 41s
+                        )
+
+                )
+
+        )
+
+)
+
+
+2026-01-06 13:43:44
+FULL RESPONSE:
+Array
+(
+    [error] => Array
+        (
+            [code] => 429
+            [message] => You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 11.362710552s.
+            [status] => RESOURCE_EXHAUSTED
+            [details] => Array
+                (
+                    [0] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.Help
+                            [links] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [description] => Learn more about Gemini API quotas
+                                            [url] => https://ai.google.dev/gemini-api/docs/rate-limits
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.QuotaFailure
+                            [violations] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [quotaMetric] => generativelanguage.googleapis.com/generate_content_free_tier_requests
+                                            [quotaId] => GenerateRequestsPerDayPerProjectPerModel-FreeTier
+                                            [quotaDimensions] => Array
+                                                (
+                                                    [location] => global
+                                                    [model] => gemini-2.5-flash
+                                                )
+
+                                            [quotaValue] => 20
+                                        )
+
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.RetryInfo
+                            [retryDelay] => 11s
+                        )
+
+                )
+
+        )
+
+)
+
+
+2026-01-06 13:44:03
+FULL RESPONSE:
+Array
+(
+    [error] => Array
+        (
+            [code] => 429
+            [message] => You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 52.81768218s.
+            [status] => RESOURCE_EXHAUSTED
+            [details] => Array
+                (
+                    [0] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.Help
+                            [links] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [description] => Learn more about Gemini API quotas
+                                            [url] => https://ai.google.dev/gemini-api/docs/rate-limits
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.QuotaFailure
+                            [violations] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [quotaMetric] => generativelanguage.googleapis.com/generate_content_free_tier_requests
+                                            [quotaId] => GenerateRequestsPerDayPerProjectPerModel-FreeTier
+                                            [quotaDimensions] => Array
+                                                (
+                                                    [location] => global
+                                                    [model] => gemini-2.5-flash
+                                                )
+
+                                            [quotaValue] => 20
+                                        )
+
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.RetryInfo
+                            [retryDelay] => 52s
+                        )
+
+                )
+
+        )
+
+)
+
+
+2026-01-06 13:44:35
+FULL RESPONSE:
+Array
+(
+    [error] => Array
+        (
+            [code] => 429
+            [message] => You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 20.515964367s.
+            [status] => RESOURCE_EXHAUSTED
+            [details] => Array
+                (
+                    [0] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.Help
+                            [links] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [description] => Learn more about Gemini API quotas
+                                            [url] => https://ai.google.dev/gemini-api/docs/rate-limits
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.QuotaFailure
+                            [violations] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [quotaMetric] => generativelanguage.googleapis.com/generate_content_free_tier_requests
+                                            [quotaId] => GenerateRequestsPerDayPerProjectPerModel-FreeTier
+                                            [quotaDimensions] => Array
+                                                (
+                                                    [location] => global
+                                                    [model] => gemini-2.5-flash
+                                                )
+
+                                            [quotaValue] => 20
+                                        )
+
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.RetryInfo
+                            [retryDelay] => 20s
+                        )
+
+                )
+
+        )
+
+)
+
+
+2026-01-06 13:44:47
+FULL RESPONSE:
+Array
+(
+    [error] => Array
+        (
+            [code] => 429
+            [message] => You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 8.945550172s.
+            [status] => RESOURCE_EXHAUSTED
+            [details] => Array
+                (
+                    [0] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.Help
+                            [links] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [description] => Learn more about Gemini API quotas
+                                            [url] => https://ai.google.dev/gemini-api/docs/rate-limits
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.QuotaFailure
+                            [violations] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [quotaMetric] => generativelanguage.googleapis.com/generate_content_free_tier_requests
+                                            [quotaId] => GenerateRequestsPerDayPerProjectPerModel-FreeTier
+                                            [quotaDimensions] => Array
+                                                (
+                                                    [location] => global
+                                                    [model] => gemini-2.5-flash
+                                                )
+
+                                            [quotaValue] => 20
+                                        )
+
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.RetryInfo
+                            [retryDelay] => 8s
+                        )
+
+                )
+
+        )
+
+)
+
+
+2026-01-06 13:45:10
+FULL RESPONSE:
+Array
+(
+    [error] => Array
+        (
+            [code] => 429
+            [message] => You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 45.875242481s.
+            [status] => RESOURCE_EXHAUSTED
+            [details] => Array
+                (
+                    [0] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.Help
+                            [links] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [description] => Learn more about Gemini API quotas
+                                            [url] => https://ai.google.dev/gemini-api/docs/rate-limits
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.QuotaFailure
+                            [violations] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [quotaMetric] => generativelanguage.googleapis.com/generate_content_free_tier_requests
+                                            [quotaId] => GenerateRequestsPerDayPerProjectPerModel-FreeTier
+                                            [quotaDimensions] => Array
+                                                (
+                                                    [location] => global
+                                                    [model] => gemini-2.5-flash
+                                                )
+
+                                            [quotaValue] => 20
+                                        )
+
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.RetryInfo
+                            [retryDelay] => 45s
+                        )
+
+                )
+
+        )
+
+)
+
+
+2026-01-06 13:45:22
+FULL RESPONSE:
+Array
+(
+    [error] => Array
+        (
+            [code] => 429
+            [message] => You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 33.724446023s.
+            [status] => RESOURCE_EXHAUSTED
+            [details] => Array
+                (
+                    [0] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.Help
+                            [links] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [description] => Learn more about Gemini API quotas
+                                            [url] => https://ai.google.dev/gemini-api/docs/rate-limits
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.QuotaFailure
+                            [violations] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [quotaMetric] => generativelanguage.googleapis.com/generate_content_free_tier_requests
+                                            [quotaId] => GenerateRequestsPerDayPerProjectPerModel-FreeTier
+                                            [quotaDimensions] => Array
+                                                (
+                                                    [model] => gemini-2.5-flash
+                                                    [location] => global
+                                                )
+
+                                            [quotaValue] => 20
+                                        )
+
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.RetryInfo
+                            [retryDelay] => 33s
+                        )
+
+                )
+
+        )
+
+)
+
+
+2026-01-06 13:45:56
+FULL RESPONSE:
+Array
+(
+    [error] => Array
+        (
+            [code] => 429
+            [message] => You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 59.558691587s.
+            [status] => RESOURCE_EXHAUSTED
+            [details] => Array
+                (
+                    [0] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.Help
+                            [links] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [description] => Learn more about Gemini API quotas
+                                            [url] => https://ai.google.dev/gemini-api/docs/rate-limits
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.QuotaFailure
+                            [violations] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [quotaMetric] => generativelanguage.googleapis.com/generate_content_free_tier_requests
+                                            [quotaId] => GenerateRequestsPerDayPerProjectPerModel-FreeTier
+                                            [quotaDimensions] => Array
+                                                (
+                                                    [location] => global
+                                                    [model] => gemini-2.5-flash
+                                                )
+
+                                            [quotaValue] => 20
+                                        )
+
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.RetryInfo
+                            [retryDelay] => 59s
+                        )
+
+                )
+
+        )
+
+)
+
+
+2026-01-06 13:48:13
+FULL RESPONSE:
+Array
+(
+    [error] => Array
+        (
+            [code] => 429
+            [message] => You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 42.277535575s.
+            [status] => RESOURCE_EXHAUSTED
+            [details] => Array
+                (
+                    [0] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.Help
+                            [links] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [description] => Learn more about Gemini API quotas
+                                            [url] => https://ai.google.dev/gemini-api/docs/rate-limits
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.QuotaFailure
+                            [violations] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [quotaMetric] => generativelanguage.googleapis.com/generate_content_free_tier_requests
+                                            [quotaId] => GenerateRequestsPerDayPerProjectPerModel-FreeTier
+                                            [quotaDimensions] => Array
+                                                (
+                                                    [model] => gemini-2.5-flash
+                                                    [location] => global
+                                                )
+
+                                            [quotaValue] => 20
+                                        )
+
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [@type] => type.googleapis.com/google.rpc.RetryInfo
+                            [retryDelay] => 42s
+                        )
+
+                )
+
+        )
+
+)
+
+
+2026-01-06 13:51:08
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => {"aman": true, "kategori": "", "confidence": 0.95}
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 384
+            [candidatesTokenCount] => 19
+            [totalTokenCount] => 1045
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 126
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 642
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => 4LBcade8FKS-g8UP39P24QY
+)
+
+
+2026-01-06 13:51:15
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => ```json
+{"aman": true, "kategori": "", "confidence": 0.98}
+```
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 384
+            [candidatesTokenCount] => 24
+            [totalTokenCount] => 1035
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 126
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 627
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => 57BcaZ-mDarkg8UPndKw4AY
+)
+
+
+2026-01-06 13:51:43
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => ```json
+{"aman": true, "kategori": "", "confidence": 0.95}
+```
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 384
+            [candidatesTokenCount] => 24
+            [totalTokenCount] => 887
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 126
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 479
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => A7FcafbnL96HqfkPx96d0AY
+)
+
+
+2026-01-06 13:51:50
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => ```json
+{"aman": true, "kategori": "", "confidence": 0.98}
+```
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 384
+            [candidatesTokenCount] => 24
+            [totalTokenCount] => 908
+            [cachedContentTokenCount] => 268
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 126
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [cacheTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 180
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 88
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 500
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => CbFcacXbLdvQg8UPv86K0Qc
+)
+
+
+2026-01-06 13:52:13
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => {"aman": false, "kategori": "Gambar senjata api", "confidence": 0.95}
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 384
+            [candidatesTokenCount] => 23
+            [totalTokenCount] => 882
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 126
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 475
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => IbFcac6kFpOD4-EPxIGaoAc
+)
+
+
+2026-01-06 13:55:33
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => ```json
+{"aman": false, "kategori": "Menggambarkan tanaman ganja, substansi yang diatur/ilegal di banyak wilayah, tidak sesuai untuk penonton segala usia dan lingkungan kerja profesional tanpa konteks yang sangat spesifik.", "confidence": 0.95}
+```
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 389
+            [candidatesTokenCount] => 62
+            [totalTokenCount] => 1222
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 131
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 771
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => 6bFcaeX2NL2O4-EP0e2LiAg
+)
+
+
+2026-01-06 13:56:28
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => ```json
+{"aman": true, "kategori": "", "confidence": 0.95}
+```
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 389
+            [candidatesTokenCount] => 24
+            [totalTokenCount] => 741
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 131
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 328
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => ILJcafHbHJ6X4-EPt6md6QY
+)
+
+
+2026-01-06 13:56:31
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => ```json
+{"aman": true, "kategori": "", "confidence": 0.95}
+```
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 389
+            [candidatesTokenCount] => 24
+            [totalTokenCount] => 734
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 131
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 321
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => I7JcaeaGPKWjg8UP3s_UyQY
+)
+
+
+2026-01-06 13:57:36
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => ```json
+{"aman": true, "kategori": "", "confidence": 0.95}
+```
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 389
+            [candidatesTokenCount] => 24
+            [totalTokenCount] => 727
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 131
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 314
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => ZLJcadPDGtKnjuMP-LnRqAk
+)
+
+
+2026-01-06 13:57:43
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => ```json
+{"aman": true, "kategori": "", "confidence": 0.95}
+```
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 389
+            [candidatesTokenCount] => 24
+            [totalTokenCount] => 716
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 131
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 303
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => a7JcafPaFf6_juMPxuza8Qk
+)
+
+
+2026-01-06 13:58:17
+FULL RESPONSE:
+Array
+(
+    [candidates] => Array
+        (
+            [0] => Array
+                (
+                    [content] => Array
+                        (
+                            [parts] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => ```json
+{"aman": false, "kategori": "Mengandung gambar tanaman ganja (marijuana) yang merupakan zat terkontrol dan tidak sesuai untuk semua kalangan tanpa konteks yang tepat.", "confidence": 0.95}
+```
+                                        )
+
+                                )
+
+                            [role] => model
+                        )
+
+                    [finishReason] => STOP
+                    [index] => 0
+                )
+
+        )
+
+    [usageMetadata] => Array
+        (
+            [promptTokenCount] => 389
+            [candidatesTokenCount] => 51
+            [totalTokenCount] => 1071
+            [promptTokensDetails] => Array
+                (
+                    [0] => Array
+                        (
+                            [modality] => TEXT
+                            [tokenCount] => 131
+                        )
+
+                    [1] => Array
+                        (
+                            [modality] => IMAGE
+                            [tokenCount] => 258
+                        )
+
+                )
+
+            [thoughtsTokenCount] => 631
+        )
+
+    [modelVersion] => gemini-2.5-flash
+    [responseId] => jbJcabbiCNT1g8UPh6jokQc
+)
+
+
